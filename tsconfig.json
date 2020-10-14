@@ -11,7 +11,7 @@
     "sourceMap": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "plugin": [{ "name": "typescript-plugin-css-modules" }]
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "include": ["./src/**/*"]
 }
