@@ -10,7 +10,8 @@
     "jsx": "react",
     "sourceMap": true,
     "moduleResolution": "Node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "plugin": [{ "name": "typescript-plugin-css-modules" }]
   },
   "include": ["./src/**/*"]
 }
