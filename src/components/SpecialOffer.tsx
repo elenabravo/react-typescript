@@ -1,13 +1,13 @@
 import React from 'react'
 import { Pizza } from '../types'
 import SpecialOfferCSS from './SpecialOffer.module.css'
-import { WithAddToCartProps, AddToCartProps } from './AddToCart'
+import { WithAddToCartProps } from './AddToCart'
 
-interface Props extends AddToCartProps{
+interface Props {
     pizza: Pizza
 }
 
-const SpecialOffer: React.FC<Props> = ({ pizza, addToCart }) => {
+const SpecialOffer: React.FC<Props> = ({ pizza }) => {
     const { name, description, price } = pizza
 
     return (
